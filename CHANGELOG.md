@@ -14,7 +14,7 @@
 
 ## Gauges::Rails 0.0.1
 
-* Initial release by [Jason Coene][tyler].
+* Initial release by [Jason Coene][jason].
 
 
 [jason]: http://github.com/jcoene
