@@ -49,6 +49,11 @@ Or, if your template is using Haml:
 5. Create a new Pull Request.
 
 
+## Credits
+
+Thanks to @jcoene for creating the original version of this Gem.
+
+
 ## Copyright
 
 Copyright © 2012 Tyler Hunt. See LICENSE for details.
