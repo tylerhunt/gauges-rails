@@ -51,7 +51,9 @@ Or, if your template is using Haml:
 
 ## Credits
 
-Thanks to @jcoene for creating the original version of this Gem.
+Thanks to [Jason Coene][jason] for creating the original version of this Gem.
+
+[jason]: https://github.com/jcoene
 
 
 ## Copyright
