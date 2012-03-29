@@ -31,5 +31,9 @@ describe Gauges::Rails::Engine do
       get '/assets/gauges.js'
       last_response.body.should include(site_id)
     end
+
+    it 'updates the list of precompiled assets' do
+      app.config.assets.precompile.should include('gauges.js')
+    end
   end
 end
