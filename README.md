@@ -39,6 +39,12 @@ Or, if your template is using Haml:
 
     = javascript_include_tag('gauges')
 
+While Gauges suggests placing this code right before the closing &lt/body&gt;
+tag, if you'd rather add it inline with the rest of your JavaScript code, you
+can add it to the bottom of your `app/assets/javascripts/application.js` file:
+
+    //= require gauges
+
 
 ## Contributing
 

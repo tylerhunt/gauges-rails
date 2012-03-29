@@ -3,6 +3,7 @@
 ## Gauges::Rails 0.2.1
 
 * Ensure `gauges.js` is added to the list of assets to be precompiled.
+* Document the use of the tracking code in the manifest file.
 
 
 ## Gauges::Rails 0.2.0
