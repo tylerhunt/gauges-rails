@@ -12,9 +12,9 @@ GaugesRailsTestApp = Class.new(Rails::Application) do
 
   config.assets.enabled = true
   config.assets.cache_store = [:memory_store, :size => 1.megabyte]
-end
 
-GaugesRailsTestApp.initialize!
-GaugesRailsTestApp.routes.clear!
+  initialize!
+  routes.clear!
+end
 
 Rails.application = GaugesRailsTestApp
