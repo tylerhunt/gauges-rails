@@ -45,6 +45,12 @@ can add it to the bottom of your `app/assets/javascripts/application.js` file:
 
     //= require gauges
 
+If you'd only like the tracking code to be included in the production
+environment, create a file like `app/assets/javascripts/tracking.js.erb` with
+the following:
+
+    <% require_asset 'gauges' if Rails.env.production? %>
+
 
 ## Contributing
 
