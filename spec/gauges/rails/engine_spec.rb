@@ -20,7 +20,7 @@ describe Gauges::Rails::Engine do
     end
   end
 
-  describe 'assets' do
+  context 'assets' do
     include Rack::Test::Methods
 
     let(:app) { Rails.application }
