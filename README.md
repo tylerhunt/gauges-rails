@@ -1,5 +1,10 @@
 # Gauges::Rails
 
+[![Build Status][travis-image]][travis]
+
+[travis]: http://travis-ci.org/tylerhunt/gauges-rails
+[travis-image]: https://secure.travis-ci.org/tylerhunt/gauges-rails.png
+
 A Rails engine to add [Gauges][] tracking code to Rails apps.
 
 [gauges]: http://gaug.es/
