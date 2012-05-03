@@ -5,7 +5,7 @@ require 'sprockets/railtie'
 
 require 'gauges/rails'
 
-GaugesRailsTestApp = Class.new(Rails::Application) do
+Rails.application = Class.new(Rails::Application) do
   config.active_support.deprecation = :stderr
   config.secret_token = SecureRandom.uuid
   config.logger = Logger.new('/dev/null')
@@ -16,5 +16,3 @@ GaugesRailsTestApp = Class.new(Rails::Application) do
   initialize!
   routes.clear!
 end
-
-Rails.application = GaugesRailsTestApp

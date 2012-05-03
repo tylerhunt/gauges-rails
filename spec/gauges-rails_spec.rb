@@ -6,7 +6,7 @@ describe Gauges::Rails::Engine do
   subject { described_class }
 
   context 'configuration' do
-    subject { GaugesRailsTestApp.config.gauges }
+    subject { Rails.application.config.gauges }
 
     it { should be_a(ActiveSupport::OrderedOptions) }
 
@@ -23,9 +23,9 @@ describe Gauges::Rails::Engine do
   describe 'assets' do
     include Rack::Test::Methods
 
-    let(:app) { GaugesRailsTestApp }
+    let(:app) { Rails.application }
 
-    before { GaugesRailsTestApp.config.gauges.site_id = site_id }
+    before { app.config.gauges.site_id = site_id }
 
     it 'interpolates the site_id' do
       get '/assets/gauges.js'
