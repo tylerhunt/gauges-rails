@@ -11,7 +11,7 @@ Rails.application = Class.new(Rails::Application) do
   config.logger = Logger.new('/dev/null')
 
   config.assets.enabled = true
-  config.assets.cache_store = [:memory_store, :size => 1.megabyte]
+  config.assets.cache_store = :memory_store, { :size => 1.megabyte }
 
   initialize!
   routes.clear!
