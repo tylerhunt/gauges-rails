@@ -2,8 +2,8 @@
 
 [![Build Status][travis-image]][travis]
 
-[travis]: http://travis-ci.org/tylerhunt/gauges-rails
-[travis-image]: https://secure.travis-ci.org/tylerhunt/gauges-rails.png
+[travis]: https://travis-ci.org/tylerhunt/gauges-rails
+[travis-image]: https://travis-ci.org/tylerhunt/gauges-rails.svg
 
 A Rails engine to add [Gauges][] tracking code to Rails apps.
 
