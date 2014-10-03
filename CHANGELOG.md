@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## Gauges::Rails 0.2.2
 
 * Add support for Rails 4.
 
