@@ -9,7 +9,7 @@ Gem::Specification.new do |gem|
 
   gem.required_ruby_version = '>= 1.9'
 
-  gem.add_dependency 'rails', '~> 3.1'
+  gem.add_dependency 'rails', '> 3.1'
   gem.add_development_dependency 'rspec', '~> 2.0'
 
   gem.files = `git ls-files`.split($\)

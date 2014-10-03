@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+* Add support for Rails 4.
+
+
 ## Gauges::Rails 0.2.1
 
 * Ensure `gauges.js` is added to the list of assets to be precompiled.
